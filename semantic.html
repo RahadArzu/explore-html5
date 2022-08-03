@@ -5,17 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            margin-top: 20px;
+        }
+        nav{
+            
+            display: flex;
+            justify-content: end;
+            
+        }
+        a{
+            padding: 10px 20px;
+            margin-left: 50px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .sign-up{
+            color: white;
+            background-color: #2e82ff;
+            border-radius: 20px;
+        }
+        .login{
+            color: #3a3a3a;
+            background-color: #ffffff;
+            border-radius: 20px;
+            border: 1px solid;
+        }
+    </style>
 </head>
 <body>
     <header>
         <nav>
-            <a href="">link-1</a>
-            <a href="">link-2</a>
-            <a href="">link-3</a>
-            <a href="">link-4</a>
-            <a href="">link-5</a>
-            <a href="">link-6</a>
-        </nav>
+            <span>
+                <a href="">Home</a>
+                <a href="">Services</a>
+                <a href="">Travels</a>
+                <a href="">Works</a>
+                <a href="">About Us</a>
+                <a href="">Contact Us</a>
+            </span>
+            <span>
+                <a class="sign-up" href="">Sign Up</a>
+                <a class="login" href="">Login</a>
+            </span>
+        </nav><br><br>
         <h1>Welcome To My Site</h1>
     </header>
     <main>
